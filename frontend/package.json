@@ -1,0 +1,46 @@
+{
+  "name": "front_end",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.1.6",
+    "@mui/material": "^6.1.10",
+    "@mui/x-date-pickers": "^7.23.1",
+    "@stomp/stompjs": "^7.0.0",
+    "@stripe/stripe-js": "^5.2.0",
+    "axios": "^1.7.9",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.13",
+    "framer-motion": "^11.11.11",
+    "front_end": "file:",
+    "lucide-react": "^0.454.0",
+    "next": "^15.0.4",
+    "react": "^19.0.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^19.0.0",
+    "react-parallax-tilt": "^1.7.252",
+    "react-router-dom": "^7.0.2",
+    "react-spring": "^9.7.4",
+    "sockjs-client": "^1.6.1",
+    "stripe": "^17.4.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.9.0",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
